@@ -1,0 +1,31 @@
+.tablePlace {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-bottom: 2rem;
+}
+
+.tableSelf {
+    grid-column: 2;
+}
+
+.statusMessage {
+    color: white;
+    font-size: x-large;
+    margin-bottom: 2rem;
+}
+
+.statusMessageContainer {
+    display: grid;
+    place-items: center;
+}
+
+.restartButton {
+    background-color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.restartButton:hover {
+    background-color: rgb(236, 236, 236);
+}
